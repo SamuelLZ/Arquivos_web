@@ -1,0 +1,127 @@
+*{
+    background: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: 'Lato';
+    src: url("../_fonte/Lato-Regular.ttf");
+}
+
+body{
+    font-family: 'Lato';
+}
+
+header{
+    height: 280px;
+    width: 996px;
+    background: #0050bf;
+    margin: 0 auto;
+}
+
+h1{
+    color: #0050bf;
+}
+
+.p{
+    padding: 10px;
+    text-align: center;
+}
+
+.banner{
+    width: 996px;
+    height: 280px;
+}
+
+.laranja{
+    color: #ff8000;
+}
+
+.italic{
+    font-style: italic;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr;
+    grid-template-rows: auto auto;
+    grid-gap: 5px;
+    height: 400px;
+    width: 996px;
+    margin: 5px auto;
+}
+
+/* main div{
+    border: 1px solid;
+} */
+
+main #botoes{
+    grid-column: 1;
+    grid-row: 1 / span 2;
+}
+
+main #texto{
+    grid-column: 2;
+    grid-row: 1 / span 2;
+}
+
+.video{
+    width: 282px;
+    height: 195px;
+}
+
+#vd1{
+    grid-column: 3;
+    grid-row: 1;
+}
+
+#vd2{
+    grid-column: 4;
+    grid-row: 1;
+}
+
+#vd3{
+    grid-column: 3;
+    grid-row: 2;
+}
+
+#vd4{
+    grid-column: 4;
+    grid-row: 2;
+}
+
+.botaolink{
+	background-color:#0050bf;
+	border-radius:10px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Lato';
+	font-size:15px;
+	padding:12px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283466;
+}
+
+.botaolink:hover{
+	background-color:#002c9c;
+}
+
+.botaolink:active{
+	position:relative;
+	top:1px;
+}
+
+.rodape{
+    text-align: center;
+    color: white;
+    background-color: #0050bf;
+    margin: 0 auto;
+    width: 996px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
